@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contáctanos - Cinépolis</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="index.html">Cinépolis</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="cartelera.html">Cartelera</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="menu.html">Alimentos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ubicacion.html">Ubicación</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contactanos.html">Contáctanos</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container mt-5">
+      <h1>Contáctanos</h1>
+      <p>Email: contacto@cinepolis.com</p>
+      <p>Teléfono: 123-456-7890</p>
+      <p>Dirección: Calle Falsa 123, Ciudad, País</p>
+
+      <div class="card mt-5">
+        <div class="card-body">
+          <h5 class="card-title">¡Danos tu opinión!</h5>
+          <p class="card-text">
+            Tu opinión es importante para nosotros. Por favor, completa esta
+            breve encuesta sobre nuestra página.
+          </p>
+          <form>
+            <div class="form-group">
+              <label for="opinion">¿Qué te pareció nuestra página?</label>
+              <select class="form-control" id="opinion">
+                <option value="excelente">Excelente</option>
+                <option value="bien">Bien</option>
+                <option value="regular">Regular</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="comentarios"
+                >Comentarios adicionales (opcional)</label
+              >
+              <textarea
+                class="form-control"
+                id="comentarios"
+                rows="3"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

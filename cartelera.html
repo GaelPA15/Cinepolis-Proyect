@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cartelera - Cinépolis</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="index.html">Cinépolis</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="cartelera.html">Cartelera</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="menu.html">Alimentos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ubicacion.html">Ubicación</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contactanos.html">Contáctanos</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="jumbotron text-center">
+      <div class="container">
+        <h1 class="display-4">Nuestra Cartelera</h1>
+        <p class="lead">
+          Descubre las películas que están en exhibición actualmente.
+        </p>
+      </div>
+    </section>
+
+    <!-- Cartelera -->
+    <section class="container my-5">
+      <h2 class="text-center mb-4">Películas en Cartelera</h2>
+      <div class="row">
+        <!-- Película 1 -->
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img
+              src="./images/badboys.jpg"
+              class="card-img-top"
+              alt="Bad Boys hasta la muerte"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Bad boys hasta la muerte</h5>
+              <p class="card-text">
+                Los policías más famosos del mundo regresan con su icónica
+                mezcla de acción al límite y comedia escandalosa.
+              </p>
+              <button
+                class="btn btn-primary"
+                data-toggle="modal"
+                data-target="#modalPelicula1"
+              >
+                Ver Detalles
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Película 2 -->
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img
+              src="./images/El_reino_del_planeta_de_los_simios-209448357-large.jpg"
+              class="card-img-top"
+              alt="El planeta de los simios: nuevo reino"
+            />
+            <div class="card-body">
+              <h5 class="card-title">El planeta de los simios: nuevo reino</h5>
+              <p class="card-text">
+                Tras el reinado de César, en el que los simios son la especie
+                dominante que vive en armonía y los humanos han quedado
+                reducidos a vivir en las sombras.
+              </p>
+              <button
+                class="btn btn-primary"
+                data-toggle="modal"
+                data-target="#modalPelicula2"
+              >
+                Ver Detalles
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Película 3 -->
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img
+              src="./images/inmaculada.jpg"
+              class="card-img-top"
+              alt="Inmaculada"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Inmaculada</h5>
+              <p class="card-text">
+                Cecilia (Sydney Sweeney), una monja fervientemente devota, se
+                aventura hacia un remoto convento en la campiña italiana en
+                busca de la consagración espiritual.
+              </p>
+              <button
+                class="btn btn-primary"
+                data-toggle="modal"
+                data-target="#modalPelicula3"
+              >
+                Ver Detalles
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Película 4 -->
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img
+              src="./images/carnada pelicula.webp"
+              class="card-img-top"
+              alt="Carnada"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Carnada</h5>
+              <p class="card-text">
+                Un grupo de amigas deben luchar por sus vidas en aguas abiertas
+                después de que una boda de ensueño se transforma en una
+                pesadilla.
+              </p>
+              <button
+                class="btn btn-primary"
+                data-toggle="modal"
+                data-target="#modalPelicula4"
+              >
+                Ver Detalles
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Película 5 -->
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img
+              src="./images/c78f03f18bedb20a5bb8171012b053ff.webp"
+              class="card-img-top"
+              alt="Garfield: Fuera de casa"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Garfield: Fuera de casa</h5>
+              <p class="card-text">
+                Garfield, el gato casero mundialmente famoso odia-lunes y amante
+                de las lasañas, está por tener una aventura fuera de casa.
+              </p>
+              <button
+                class="btn btn-primary"
+                data-toggle="modal"
+                data-target="#modalPelicula5"
+              >
+                Ver Detalles
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Película 6 -->
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img
+              src="./images/sismo peli.jpg"
+              class="card-img-top"
+              alt="Sismo magnitud 9.5"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Sismo magnitud 9.5</h5>
+              <p class="card-text">
+                Un repentino terremoto sacudió todo el parque químico en el
+                condado de Gucheng, con fugas en las tuberías que provocaron
+                constantes explosiones.
+              </p>
+              <button
+                class="btn btn-primary"
+                data-toggle="modal"
+                data-target="#modalPelicula6"
+              >
+                Ver Detalles
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modales para cada película -->
+
+    <!-- Modal para Película 1 -->
+    <div
+      class="modal fade"
+      id="modalPelicula1"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="modalPelicula1Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalPelicula1Label">
+              Bad boys hasta la muerte
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="./images/badboys2.jpg"
+              class="img-fluid mb-2"
+              alt="Nombre Película 1"
+            />
+            <p>
+              Los policías más famosos del mundo regresan con su icónica mezcla
+              de acción al límite y comedia escandalosa, pero esta vez con un
+              giro inesperado: ¡Los mejores de Miami se dan a la fuga! Cuarta
+              entrega de la saga 'Dos policías rebeldes'.
+            </p>
+            <p><strong>Horarios:</strong> 2:00 pm 2:50 pm 3:45 pm</p>
+            <!-- Agregar más detalles según sea necesario -->
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Cerrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal para Película 2 -->
+    <div
+      class="modal fade"
+      id="modalPelicula2"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="modalPelicula2Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalPelicula2Label">
+              Detalles de Película 2
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="./images/El_reino_del_planeta_de_los_simios-663256597-large.jpg"
+              class="img-fluid mb-2"
+              alt="El planeta de los simios: nuevo reino"
+            />
+            <p>
+              Tras el reinado de César, en el que los simios son la especie
+              dominante que vive en armonía y los humanos han quedado reducidos
+              a vivir en las sombras. Mientras un nuevo y tiránico líder simio
+              construye su imperio, un joven simio emprende un viaje desgarrador
+              que le llevará a cuestionarse todo lo que sabe sobre el pasado y a
+              tomar decisiones que definirán el futuro de simios y humanos por
+              igual.
+            </p>
+            <p><strong>Horarios:</strong> 12:45 pm 1:30 pm 2:15 pm</p>
+            <!-- Agregar más detalles según sea necesario -->
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Cerrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal para Película 3 -->
+    <div
+      class="modal fade"
+      id="modalPelicula3"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="modalPelicula3Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalPelicula3Label">
+              Detalles de Película 3
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="./images/inmaculada2.jpg"
+              class="img-fluid mb-2"
+              alt="Inmaculada"
+            />
+            <p>
+              Cecilia (Sydney Sweeney), una monja fervientemente devota, se
+              aventura hacia un remoto convento en la campiña italiana en busca
+              de la consagración espiritual. Sin embargo, lo que inicialmente
+              prometía ser un encuentro espiritual se transforma en una oscura y
+              aterradora pesadilla.
+            </p>
+            <p><strong>Horarios:</strong> 4:00 pm 5:55 pm 6:30 pm</p>
+            <!-- Agregar más detalles según sea necesario -->
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Cerrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal para Película 4 -->
+    <div
+      class="modal fade"
+      id="modalPelicula4"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="modalPelicula4Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalPelicula4Label">Carnada</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="./images/carnada pelicula.webp"
+              class="img-fluid mb-2"
+              alt="Carnada"
+            />
+            <p>
+              Un grupo de amigas deben luchar por sus vidas en aguas abiertas
+              después de que una boda de ensueño se transforma en una pesadilla.
+            </p>
+            <p><strong>Horarios:</strong> 2:15 pm 3:30 pm 4:45 pm</p>
+            <!-- Agregar más detalles según sea necesario -->
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Cerrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal para Película 5 -->
+    <div
+      class="modal fade"
+      id="modalPelicula5"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="modalPelicula5Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalPelicula5Label">
+              Garfield: Fuera de casa
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="./images/garfield defintiivo xd.jpg"
+              class="img-fluid mb-2"
+              alt="Garfield: Fuera de casa"
+            />
+            <p>
+              Garfield, el gato casero mundialmente famoso odia-lunes y amante
+              de las lasañas, está por tener una aventura fuera de casa. Después
+              de una inesperada reunión con su ausente padre – un sucio gato
+              callejero llamado Vic – Garfield y su canino amigo Odie, son
+              forzados a dejar su consentida vida para unirse a Vic en un
+              divertido asalto de gran riesgo.
+            </p>
+            <p><strong>Horarios:</strong> 1:30 pm 2:40 pm 3:25 pm</p>
+            <!-- Agregar más detalles según sea necesario -->
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Cerrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal para Película 6 -->
+    <div
+      class="modal fade"
+      id="modalPelicula6"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="modalPelicula6Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalPelicula6Label">
+              Sismo magnitud 9.5
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="./images/sismo peli.jpg"
+              class="img-fluid mb-2"
+              alt="Sismo magnitud 9.5"
+            />
+            <p>
+              Un repentino terremoto sacudió todo el parque químico en el
+              condado de Gucheng, con fugas en las tuberías que provocaron
+              constantes explosiones.
+            </p>
+            <p><strong>Horarios:</strong> 3:15 pm 4:30 pm 5:20 pm</p>
+            <!-- Agregar más detalles según sea necesario -->
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Cerrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+      <div class="container">
+        <p>&copy; 2024 Cinépolis. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
